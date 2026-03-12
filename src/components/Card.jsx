@@ -2,6 +2,7 @@ import {BadgeCheck, User, Heart, Plus} from "lucide-react"
 
 const Card = ()=>{
     return(
+      
          <div className='card-parent'>
         <div className='img-wrapper'>
           <img className='profile-img' src="https://www.webxcreation.com/event-recruitment/images/profile-1.jpg" alt="" />
@@ -28,6 +29,7 @@ const Card = ()=>{
           <button id='btn'>Follow <Plus className='plus' size={14} /></button>
         </div>
       </div>
+      
     )
 }
 
